@@ -1,0 +1,355 @@
+
+
+a{
+    font-size: 15px;
+    color:blue;
+}
+
+body{
+    margin:0px;
+}
+
+.head{
+    background-image: url('assets/back1.png');
+    background-size: cover;
+    margin: 0px;
+    width: 1263px;
+    height: 585px;
+}
+
+.logo{
+    color: green;
+    font-size: 32px;
+    font-family: Showcard Gothic;
+}
+
+.topnav{
+    display:transparent;
+    overflow: hidden;
+    background-color: hsla(204, 73%, 57%, 0.84);                               /*hsla(204, 78%, 16%, 0.84);*/                 
+    padding-inline: 2em;
+}
+  
+.topnav a{
+    margin-top:10px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover{
+    background-color: #ddd;
+    color: green;
+}
+  
+.topnav a.active{
+    background-color: lightskyblue;
+    color: white;
+}
+
+.topnav .logo {
+    margin-top:2px;
+    color: green;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Showcard Gothic;
+}
+
+.text{
+    margin-top:30px;
+    color:white;
+    margin-left:2em;
+    font-size:32px;
+}
+
+.button1{
+    margin-left: 4em;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button2{
+        background-color: hsla(204, 63%, 53%, 0.84); 
+        border-color: white;
+        color: black;
+        border:none;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+}
+
+.button3{
+    background-color:white;
+    border:none;
+    color: black;
+    padding: 7px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 3em;
+}
+
+.button4{
+    background-color: white;
+    border:none;
+    color: black;
+    padding: 7px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 3em;
+}
+
+.button5{
+    background-color: white;
+    border:none;
+    color: black;
+    padding: 7px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 3em;
+}
+
+.signs{
+    margin-top:2.5em;
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    gap: 6em;
+    margin-bottom: 2.5em;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 8em;
+    margin: 15px;
+    margin-bottom:6em;
+}
+
+.image-container{
+    position: relative;
+    margin: 8px;
+}
+
+.image-container img{
+    width: 310px;
+    height: 490px;
+}
+
+.text-block{
+    position: absolute;
+    top: 75%;
+    left: 4%;
+    background-color:none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+.text-block h5{
+    margin: 0;
+    font-size: 14px;
+}
+
+.text-block p{
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.text-block .button{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+
+.Product h1{
+    margin: 5px;
+    margin-top: 7%;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: "Arial Rounded MT Bold";
+    margin-bottom: 7%;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.pic{
+    width: 17%; 
+    margin-bottom: 7%;
+    padding: 5px; 
+    box-sizing: border-box;
+}
+
+.pic img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.pic:hover img{
+    border: 1px solid hsl(0, 3%, 19%);
+}
+
+.sep .mid{
+   background-image: url('assets/paint.png');
+   background-repeat: no-repeat;
+   background-size: 1300px 800px;
+   color:white;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   padding:4em;
+   height:280px
+}
+
+.button6{
+    margin-left: 2px;
+    margin-top:1.5em;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.entity {
+    margin-top:5em;
+    font-family: Aptos;
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.entity-item{
+    margin-bottom: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center; 
+    inline-size: 18em;
+    margin-left: 15px;
+}
+
+.entity-item span{
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Aptos Bold';
+    text-align: center;
+}
+
+.entity-item p{
+    margin: 0;
+    line-height: 1.5;
+    text-align: center; 
+}
+
+.line{
+    margin-top:2em;
+    margin-left:3em;
+    margin-bottom:2em;
+    font-family:'Roboto', sans-serif;
+}
+
+#sam{
+    display:inline-flex;
+    height:280px;
+    flex-direction: row;
+}
+
+dfn{
+    margin-top:10.5em;
+    text-align: center;
+    font-family: Showcard Gothic; 
+    font-size:25px;
+}
+
+h3{
+    color:orange;
+    margin-top:100px;
+    margin-left:5px;
+    font-size: 18px; 
+    font-family:sans-serif;
+
+}
+.women{
+    margin-top:2em;
+    margin-left:6em;
+    font-size:17px;
+    
+}
+
+.men{
+    margin-top:2em;
+    margin-left:7em;
+    font-size:17px; 
+}
+
+.lab{
+    margin-top:2em;
+    margin-left:7em;
+    font-size:17px;
+}
+
+.label{
+    margin-left: 2px;
+    margin-top:0px;
+    background-color: white;
+    padding: 8px 18px;
+    border: collpase lighter;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: default;
+}
+
+.button7{
+    margin-left: 2px;
+    margin-top:0px;
+    background-color: hsla(204, 63%, 53%, 0.84); 
+    color: white;
+    border:none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.end{
+    margin-left: 2em;
+}
