@@ -1,5 +1,3 @@
-
-
 a{
     font-size: 15px;
     color:blue;
@@ -10,7 +8,7 @@ body{
 }
 
 .head{
-    background-image: url('assets/back1.png');
+    background-image: url('assets/alpha.png');
     background-size: cover;
     margin: 0px;
     width: 1263px;
@@ -26,14 +24,14 @@ body{
 .topnav{
     display:transparent;
     overflow: hidden;
-    background-color: hsla(204, 73%, 57%, 0.84);                               /*hsla(204, 78%, 16%, 0.84);*/                 
+    background-color: hsla(204, 68%, 46%, 0.84);                               /**/                 
     padding-inline: 2em;
 }
   
 .topnav a{
     margin-top:10px;
     float: left;
-    color: #f2f2f2;
+    color: hsl(0, 0%, 95%);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -41,8 +39,8 @@ body{
 }
   
 .topnav a:hover{
-    background-color: #ddd;
-    color: green;
+    background-color: hsl(207, 38%, 51%);
+    color: white;
 }
   
 .topnav a.active{
@@ -63,6 +61,7 @@ body{
     color:white;
     margin-left:2em;
     font-size:32px;
+    font-family:sans-serif;
 }
 
 .button1{
@@ -159,6 +158,7 @@ body{
 
 .text-block{
     position: absolute;
+    font-family:sans-serif;
     top: 75%;
     left: 4%;
     background-color:none;
@@ -195,7 +195,7 @@ body{
     margin-top: 7%;
     text-align: center;
     font-size: 2.5em;
-    font-family: "Arial Rounded MT Bold";
+    font-family:sans-serif;
     margin-bottom: 7%;
 }
 
@@ -211,6 +211,7 @@ body{
     margin-bottom: 7%;
     padding: 5px; 
     box-sizing: border-box;
+    font-family:sans-serif;
 }
 
 .pic img{
@@ -220,17 +221,23 @@ body{
 }
 
 .pic:hover img{
-    border: 1px solid hsl(0, 3%, 19%);
+    border: 1px solid hsl(0, 7%, 88%);
+    border-style: double;
 }
 
 .sep .mid{
    background-image: url('assets/paint.png');
    background-repeat: no-repeat;
-   background-size: 1300px 800px;
+   background-size: 1350px 450px;
    color:white;
-   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   padding:4em;
+   font-family:sans-serif;
+   margin: 0;
+   padding:3em;
    height:280px
+}
+
+h2{
+    font-family:sans-serif;
 }
 
 .button6{
@@ -249,7 +256,7 @@ body{
 
 .entity {
     margin-top:5em;
-    font-family: Aptos;
+    font-family:sans-serif;
     text-align: center;
     margin-bottom: 5em;
 }
@@ -261,13 +268,14 @@ body{
     align-items: center; 
     inline-size: 18em;
     margin-left: 15px;
+    font-family:sans-serif;
 }
 
 .entity-item span{
-    font-size: 18px;
+    font-size: 24px;
     display: block;
     margin-bottom: 5px;
-    font-family: 'Aptos Bold';
+    font-family:sans-serif;
     text-align: center;
 }
 
@@ -275,6 +283,7 @@ body{
     margin: 0;
     line-height: 1.5;
     text-align: center; 
+    font-family:sans-serif;
 }
 
 .line{
@@ -291,24 +300,33 @@ body{
 }
 
 dfn{
-    margin-top:10.5em;
+    color: green;
+    margin-top:1.5em;
+    padding-left: 1em;
     text-align: center;
     font-family: Showcard Gothic; 
     font-size:25px;
 }
 
 h3{
-    color:orange;
+    color:black;
     margin-top:100px;
     margin-left:5px;
     font-size: 18px; 
     font-family:sans-serif;
 
 }
+
+h4{
+    font-size: 22px;
+    font-family:sans-serif;
+}
+
 .women{
     margin-top:2em;
     margin-left:6em;
     font-size:17px;
+    font-family:sans-serif;
     
 }
 
@@ -316,6 +334,7 @@ h3{
     margin-top:2em;
     margin-left:7em;
     font-size:17px; 
+    font-family:sans-serif;
 }
 
 .lab{
