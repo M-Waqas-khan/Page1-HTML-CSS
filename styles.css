@@ -8,7 +8,7 @@ body{
 }
 
 .head{
-    background-image: url('assets/alpha.png');
+    background-image: url('assets/header.png');
     background-size: cover;
     margin: 0px;
     width: 1263px;
@@ -24,14 +24,14 @@ body{
 .topnav{
     display:transparent;
     overflow: hidden;
-    background-color: hsla(204, 68%, 46%, 0.84);                               /**/                 
+    background-color:hsla(210, 6%, 87%, 0.84);                                          
     padding-inline: 2em;
 }
   
 .topnav a{
     margin-top:10px;
     float: left;
-    color: hsl(0, 0%, 95%);
+    color:black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -39,7 +39,7 @@ body{
 }
   
 .topnav a:hover{
-    background-color: hsl(207, 38%, 51%);
+    background-color: hsl(200, 4%, 68%);
     color: white;
 }
   
@@ -57,10 +57,10 @@ body{
 }
 
 .text{
-    margin-top:30px;
-    color:white;
+    margin-top:2.5em;
+    color:black;
     margin-left:2em;
-    font-size:32px;
+    font-size:28px;
     font-family:sans-serif;
 }
 
@@ -78,7 +78,7 @@ body{
 }
 
 .button2{
-        background-color: hsla(204, 63%, 53%, 0.84); 
+        background-color: hsla(204, 3%, 72%, 0.84);                              /* hsla(204, 63%, 53%, 0.84) */
         border-color: white;
         color: black;
         border:none;
